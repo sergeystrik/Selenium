@@ -29,6 +29,6 @@ public class Task1 {
         reEnterEmail.sendKeys("will.smith@gmail.com");
 
         WebElement passWord=driver.findElement(By.id("password_step_input"));
-        passWord.sendKeys("1234567890");
+        passWord.sendKeys("1234Test");
     }
 }
