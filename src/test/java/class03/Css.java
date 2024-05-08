@@ -7,10 +7,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Css {
     public static void main(String[] args) {
+
         WebDriver driver=new ChromeDriver();
+
         driver.manage().window().maximize();
+
         driver.get("https://syntaxprojects.com/cssSelector.php");
+
         WebElement inputBox = driver.findElement(By.cssSelector("input[id='profileID']"));
+
         inputBox.sendKeys("helo");
 
         //        find the profile box
