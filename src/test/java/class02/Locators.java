@@ -16,7 +16,7 @@ public class Locators {
 
        WebElement email= driver.findElement(By.id("email"));
 
-       email.sendKeys("ssiryk@yahoo.com");
+       email.sendKeys("drewyt@yahoo.com");
 
        WebElement password=driver.findElement(By.name("pass"));
 

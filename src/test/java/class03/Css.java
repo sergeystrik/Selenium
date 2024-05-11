@@ -26,7 +26,7 @@ public class Css {
         WebElement feedbackBox = driver.findElement(By.cssSelector("input.form-control.feedbackBox1"));
         feedbackBox.sendKeys("the website is too slow");
 
-        //        coursetopic
+        //        course topic
         WebElement courseTopic = driver.findElement(By.cssSelector("input[name*='contentInput']"));
         courseTopic.sendKeys("selenium");
 
