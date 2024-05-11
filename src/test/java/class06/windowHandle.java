@@ -40,7 +40,9 @@ public class windowHandle {
                 break;
             }
         }
-        System.out.println(driver.getTitle());
+      driver.switchTo().window(mainPageHandle);
+
+
 
     }
 }
